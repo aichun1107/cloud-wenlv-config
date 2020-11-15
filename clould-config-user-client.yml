@@ -63,7 +63,7 @@ mybatis-plus:
 eureka:
    client:
       service-url:
-         defaultZone:  http://wenlv-eureka7001.com:7001/eureka/,http://wenlv-eureka7002.com:7002/eureka/,http://wenlv-eureka7003.com:7003/eureka/
+         defaultZone:  http://wenlv-eureka7001.com:7001/eureka/
    instance:                                    #鍏ラ┗eureka瀹炰緥鍙栦竴涓埆鍚�
       instance-id: wenlv-user-9004.com         #鑷畾涔夋湇鍔″櫒鍚嶇О鎻愮ず(甯ystrix)
       prefer-ip-address: true                              #璁块棶璺緞鍙互鏄剧ずIP鍦板潃
@@ -136,7 +136,7 @@ mybatis-plus:
 eureka:
    client:
       service-url:
-         defaultZone:  http://wenlv-eureka7001.com:7001/eureka/,http://wenlv-eureka7002.com:7002/eureka/,http://wenlv-eureka7003.com:7003/eureka/
+         defaultZone:  http://wenlv-eureka7001.com:7001/eureka/
    instance:                                    #鍏ラ┗eureka瀹炰緥鍙栦竴涓埆鍚�
       instance-id: wenlv-user-9004.com         #鑷畾涔夋湇鍔″櫒鍚嶇О鎻愮ず(甯ystrix)
       prefer-ip-address: true                              #璁块棶璺緞鍙互鏄剧ずIP鍦板潃
