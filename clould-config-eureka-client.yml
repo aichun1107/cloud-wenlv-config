@@ -4,10 +4,10 @@ spring:
       - dev
 ---
 server:
-   port: 7001               #注册中心占用9004端口号，冒号后面必须跟空格
+   port: 7001
    
 spring:
-   profiles: dev      #开发环境
+   profiles: dev
    application:
       name:  clould-config-eureka-client
       
@@ -15,16 +15,16 @@ eureka:
    instance:
       hostname: wenlv-eureka7001.com
    client:
-      register-with-eureka: false            #当前的eureka-server自己不注册金服务列表中
-      fetch-registry: false                  #不通过eureka获取注册信息
+      register-with-eureka: false
+      fetch-registry: false
       service-url:
          defaultZone: http://wenlv-eureka7001.com:7001/eureka/
 ---
 server:
-   port: 7001               #注册中心占用9004端口号，冒号后面必须跟空格
+   port: 7001
    
 spring:
-   profiles: test      #测试环境
+   profiles: test
    application:
       name:  clould-config-eureka-client
       
@@ -32,7 +32,7 @@ eureka:
    instance:
       hostname: wenlv-eureka7001.com
    client:
-      register-with-eureka: false            #当前的eureka-server自己不注册金服务列表中
-      fetch-registry: false                  #不通过eureka获取注册信息
+      register-with-eureka: false
+      fetch-registry: false
       service-url:
          defaultZone: http://wenlv-eureka7001.com:7001/eureka/
