@@ -19,7 +19,7 @@ eureka:
       register-with-eureka: false
       fetch-registry: false
       service-url:
-         defaultZone: http://wenlv-eureka7001.com:7001/eureka/
+         defaultZone: http://wenlv-eureka7001.com:7001/eureka/,http://wenlv-eureka7002.com:7002/eureka/,http://wenlv-eureka7003.com:7003/eureka/
 ---
 server:
    port: 7001
